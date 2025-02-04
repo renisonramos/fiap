@@ -1,0 +1,20 @@
+.container {
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000000;
+    color: #ffffff;
+}
+
+.box-um {
+    background-color: rgb(209, 27, 63);
+}
+
+.box-dois {
+    background-color: rgb(17, 60, 129);
+}
+
+.box-tres {
+    background-color: rgb(32, 6, 12);
+}

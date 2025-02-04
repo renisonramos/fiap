@@ -1,0 +1,8 @@
+h1::after {
+    content: '';
+    width: 80%;
+    height: 3px;
+    background-color: #dc143c;
+    margin: 10px auto;
+    display: block;
+}

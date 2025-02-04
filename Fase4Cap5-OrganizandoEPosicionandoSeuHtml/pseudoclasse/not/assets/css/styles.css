@@ -1,0 +1,14 @@
+/* //Formatação CSS padrão */
+div {
+    width: 150px;
+    height: 50px;
+    border-radius: 7px;
+    border: 1px solid #dc143c;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.box:not(.no-color) {
+    background-color: #dc143c;
+    color: #fff;
+}

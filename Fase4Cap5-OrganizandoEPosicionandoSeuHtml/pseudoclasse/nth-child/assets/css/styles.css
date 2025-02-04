@@ -1,0 +1,25 @@
+/* //Formatação CSS padrão */
+div {
+    width: 150px;
+    height: 50px;
+    border-radius: 7px;
+    border: 1px solid #dc143c;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+/* //Formatação CSS com a pseudo-classe */
+div:nth-child(4) {
+    background-color: #dc143c;
+    color: #ffffff;
+}
+
+/* Formatação da Css para numeros impares */
+div:nth-child(even) {
+    background-color: #3c5385;
+}
+
+/* Formatação da CSS para os elementos pares */
+div:nth-child(odd) {
+    background-color: #dc143c;
+}

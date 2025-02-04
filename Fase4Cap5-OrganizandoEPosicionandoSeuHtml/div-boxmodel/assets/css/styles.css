@@ -1,0 +1,13 @@
+div {
+    width: 90%;
+    height: 80px;
+    margin: 10px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #DC143C;
+}
+
+#container {
+    background-color: rgb(38, 19, 122);
+    color: #fff;
+}

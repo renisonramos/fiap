@@ -1,0 +1,23 @@
+:root {
+    --bg-gradient: linear-gradient(325deg,
+                hsl(240deg 90% 8%) 0%,
+                hsl(238deg 85% 9%) 10%,
+                hsl(236deg 83% 10%) 22%,
+                hsl(233deg 84% 11%) 33%,
+                hsl(230deg 87% 12%) 45%,
+                hsl(229deg 88% 13%) 55%,
+                hsl(229deg 86% 14%) 65%,
+                hsl(230deg 83% 15%) 74%,
+                hsl(232deg 78% 16%) 81%,
+                hsl(235deg 72% 18%) 88%,
+                hsl(238deg 67% 20%) 94%,
+                hsl(241deg 64% 21%) 100%);
+}
+body {
+    font-family: Catamaran, sans-serif;
+}
+
+.hero {
+    min-height: 100vh;
+    background-image: var(--bg-gradient);
+}
